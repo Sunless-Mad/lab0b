@@ -1,6 +1,6 @@
 
 #include "WordInfo.h"
-WordInfo::WordInfo() //конструктор
+WordInfo::WordInfo() //
 		: frequency(1) {}
 
 WordInfo::~WordInfo() = default;
