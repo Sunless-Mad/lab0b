@@ -1,0 +1,7 @@
+﻿  FileWork.cpp
+  WordInfo.cpp
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  TableCSV.cpp
+  Создание кода...
+  lab0b.vcxproj -> C:\Users\79531\source\repos\lab0b\x64\Debug\lab0b.exe
