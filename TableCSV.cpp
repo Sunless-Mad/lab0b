@@ -9,7 +9,7 @@ TableCSV::~TableCSV() = default;
 void TableCSV::add_word(std::string word) {
 	auto key_word = words.find(word);
 	if (key_word != words.end()) {
-		key_word->second.add_frequency(); // добавляю частоту 
+		key_word->second.add_frequency(); 
 	}
 	else {
 		WordInfo word_info = WordInfo(); // если в мапе слова нет, то создаем объект с частотой 1
@@ -24,3 +24,4 @@ std::vector<std::pair<std::string, WordInfo>> TableCSV::sort_map() {
 		});
 	return vecMap;
 }
+//PR

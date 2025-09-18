@@ -26,7 +26,7 @@ TableCSV FileWork::parse_words(){
 		}
 	}
 	if (!current.empty()) {
-		table.add_word(current); //добавляем последнее слово если оно имеется
+		table.add_word(current); 
 	}
 	return table;
 }
@@ -40,3 +40,4 @@ void FileWork::do_csvfile() {
 		output << word << ";" << info.get_frequency() << ";" << persent << "%" << std::endl;
 	}
 }
+//PR

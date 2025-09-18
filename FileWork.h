@@ -8,7 +8,7 @@
 
 class FileWork {
 private:
-	std::ifstream& input;
+	std::ifstream& input; 
 	std::ofstream& output;
 	double count_words;
 	TableCSV parse_words();
@@ -23,3 +23,4 @@ public:
 
 #endif
 
+//PR
